@@ -13,32 +13,32 @@ IOT 장치는 부여 받는 아이디를 ROM에 저장하여 재부팅시 이를
 
 ## Data Format
 ------------------------------------------------------------
-명령체계 (JSON)
+* 명령체계 (JSON)
 {
  id: '',
  cmd: '',
  data: ''
 } 
 
-OPEN
-CLOSE
-ON
-OFF
-TEMP
-HUM
+* OPEN
+* CLOSE
+* ON
+* OFF
+* TEMPERATURE
+* HUMIDITY
 
 
 ## Structure
 ------------------------------------------------------------
-- Central
+* Central
 JSP, MQTT Broker, InfluxDB, MariaDB
 미러디스플레이
 음성인식
 
-- Maintain & Measurement
+* Maintain & Measurement
 IOT_소리, IOT_온습도, IOT_조도, IOT_화재감지, IOT 도어센서, IOT_모션, IOT_도어락, IOT_전원제어, IOT_버저, IOT_레이저거리 센서, IOT_RC카
 
-- Security
+* Security
 Motion Detection Camera
 CCTV (Movement & Streaming)
 
